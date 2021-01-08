@@ -1,0 +1,40 @@
+{
+  "Vacancies": [
+    {
+      "id": 1,
+      "title": "Quarto Duplo 1º Andar",
+      "description": "Vista para a piscina",
+      "daily_value": 180.00,
+      "beds": 1,
+      "bathroom": 1,
+      "image": "https://static1.eskypartners.com/travelguide/image8.png"
+    },
+    {
+      "id": 2,
+      "Title": "Quarto Solteiro 2º Andar",
+      "description": "Vista para a piscina e mar aberto, ideal para está sozinho",
+      "daily_value": 100.0,
+      "beds": 1,
+      "bathroom": 1,
+      "image": "https://static1.eskypartners.com/travelguide/image8.png"
+    },
+    {
+      "id": 3,
+      "Title": "Quarto Duplo 2º Andar",
+      "description": "Vista para a piscina e mar aberto, ideal para casais",
+      "daily_value": 150.0,
+      "beds": 2,
+      "bathroom": 1,
+      "image": "https://static1.eskypartners.com/travelguide/image8.png"
+    },
+    {
+      "id": 4,
+      "Title": "Quarto Triplo 3º Andar",
+      "description": "Vista para a piscina e mar aberto, ideal para grupos ",
+      "daily_value": 150.0,
+      "beds": 3,
+      "bathroom": 1,
+      "image": "https://static1.eskypartners.com/travelguide/image8.png"
+    }
+  ]
+}
