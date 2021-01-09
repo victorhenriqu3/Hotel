@@ -1,72 +1,72 @@
-import React from "react";
-import { Formik } from "formik";
-import FormBase from "./styles";
+import axios from "axios";
+import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
+import "./forms.css";
 
-const Forms = () => (
-  <div className="Formfield">
-    <FormBase>
-      <h1> Anywhere in your app! </h1>{" "}
-      <Formik
-        initialValues={{
-          email: "",
-          password: "",
-        }}
-        validate={(values) => {
-          const errors = {};
-          if (!values.email) {
-            errors.email = "Required";
-          } else if (
-            !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
-          ) {
-            errors.email = "Invalid email address";
-          }
-          return errors;
-        }}
-        onSubmit={(values, { setSubmitting }) => {
-          setTimeout(() => {
-            alert(JSON.stringify(values, null, 2));
-            setSubmitting(false);
-          }, 400);
-        }}
-      >
-        {" "}
-        {({
-          values,
-          errors,
-          touched,
-          handleChange,
-          handleBlur,
-          handleSubmit,
-          isSubmitting,
-          /* and other goodies */
-        }) => (
-          <form onSubmit={handleSubmit}>
-            <input
-              type="email"
-              name="email"
-              placeholder="E-mail"
-              onChange={handleChange}
-              onBlur={handleBlur}
-              value={values.email}
-            />{" "}
-            {errors.email && touched.email && errors.email}{" "}
-            <input
-              type="password"
-              name="password"
-              placeholder="Password"
-              onChange={handleChange}
-              onBlur={handleBlur}
-              value={values.password}
-            />{" "}
-            {errors.password && touched.password && errors.password}{" "}
-            <button type="submit" disabled={isSubmitting}>
-              Submit{" "}
-            </button>{" "}
-          </form>
-        )}{" "}
-      </Formik>{" "}
-    </FormBase>{" "}
-  </div>
-);
+const initialValues = {
+  title: "",
+  description:"",
+  image:"",
+  beds:0,
+  bathroom:0,
+  daily_value:0.00,
+  createdAt: 0,
+}
+const url = "https://5ff77176e7164b0017e1a959.mockapi.io/api/Hotel";
+function Forms() {
+  const [values,setValues] = useState(initialValues);
+  const history = useHistory();
+  console.log(values)
+
+  function onChange(e) {
+    const { name, value } = e.target;
+
+    setValues({...values,[name]: value});
+  }
+
+  function onSubmit(ev){
+    ev.preventDefault();
+
+    axios.post(url,values)
+    .then((response)=>{
+      history.push("/");
+    });
+  }
+
+  return (
+    <div className="ContainerForm">
+      <h1>Cadastro de Vaga</h1>
+      <form onSubmit={onSubmit}>
+        <div className="formGroup">
+          <label htmlFor="title">Título do Anúncio</label>
+          <input required id="title" name="title" type="text" onChange={onChange}  />
+        </div>
+        <div className="formGroup">
+          <label htmlFor="description"> Descrição do Anúncio </label>
+          <textarea required id="description" name="description" rows="5" cols="33" onChange={onChange} />
+        </div>
+        <div className="formGroup">
+          <label htmlFor="image">Imagem do Anúncio (url)</label>
+          <input required id="image" name="image" type="text" onChange={onChange}/>
+        </div>
+        <div className="formGroup">
+          <label htmlFor="beds">Camas</label>
+          <input required id="beds" name="beds" type="number" onChange={onChange} />
+        </div>
+        <div className="formGroup">
+          <label htmlFor="bathroom">Banheiros</label>
+          <input required id="bathroom" name="bathroom" type="number" onChange={onChange}/>
+        </div>
+        <div className="formGroup">
+          <label htmlFor="daily_value">Preço da Diária</label>
+          <input required id="dailyValue" name="daily_value" type="number" step="0.01" onChange={onChange} />
+        </div>
+        <div className="formGroup">
+          <button className="bt" type="submit">Salvar</button>
+        </div>
+      </form>
+    </div>
+  );
+}
 
 export default Forms;
