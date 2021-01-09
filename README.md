@@ -1,75 +1,65 @@
-# Getting Started with Create React App
+<h1 align="center">
+    Projeto: Hotel 🏨
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>
+    <img src="https://i.imgur.com/cvYH72H.png">
+</h1>
 
-## Available Scripts
+<h3 align="center">
+    <a href="https://hotel-six.vercel.app">Acessar a demonstração</a>
+<h3 >
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Indice
+- [Sobre](#-sobre)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Como baixar o projeto](#-como-baixar-o-projeto)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🔖&nbsp; Sobre
 
-### `npm test`
+O projeto **Hotel** foi criado com o intuito de colocar em prática os conhecimentos em **ReactJS** para construção da interface ao listar e cadastrar anúncios de vagas para um hotel.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Tecnologias utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+O projeto foi desenvolvido utilizando as seguintes tecnologias
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [ReactJS](https://reactjs.org)
+- [React Router Dom](https://github.com/ReactTraining/react-router)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Axios](https://github.com/axios/axios)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+##  Como baixar o projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    # Clonar o repositório
+    $ git clone https://github.com/victorhenriqu3/Hotel
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    # Entrar no diretório
+    $ cd Hotel
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    # Instalar as dependências
+    $ npm init
 
-## Learn More
+    # Iniciar o projeto
+    $ npm start
+```
+<br/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Autor
+---
+<h5 align="center">
+<a href="https://github.com/victorhenriqu3">
+ <img style="border-radius: 50%;" src="https://avatars1.githubusercontent.com/u/43153097?s=460&u=7bf4669221e468b47e54f44d58498507abd71b91&v=4" width="150px;" alt=""/>
 
-### Code Splitting
+<h3 align="center" ><a href="https://www.linkedin.com/in/victor-henrique-monteiro-lima-264004143/">Victor Henrique  🚀</a></h3>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-## FORMIK
-# Styled-Components
-#
-
+<h4 align="center"><sub>Feito com ❤️ por Victor Henrique👋🏽 Entre em contato!</sub>
+</h4>
