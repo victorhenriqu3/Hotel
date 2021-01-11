@@ -10,6 +10,10 @@
     <img src="https://i.imgur.com/cvYH72H.png">
 </h1>
 
+<h1>
+    <img src="https://i.imgur.com/w2NB0N2.png">
+</h1>
+
 <h3 align="center">
     <a href="https://hotel-six.vercel.app">Acessar a demonstração</a>
 <h3 >
