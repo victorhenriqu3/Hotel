@@ -1,6 +1,9 @@
 import { extendTheme } from '@chakra-ui/react';
 
 export const theme = extendTheme({
+	fonts: {
+		body: 'Montserrat, sans-serif;',
+	},
 	colors: {
 		background: '#EEEEEE',
 		backgroundCard: '#f9f9f9',

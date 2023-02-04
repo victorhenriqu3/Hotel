@@ -3,7 +3,7 @@ import { Box } from '@chakra-ui/react';
 function App() {
 	return (
 		<>
-			<Box bg='yellowish'>Argos Hotel</Box>
+			<Box bg='background' h='100vh'></Box>
 		</>
 	);
 }
