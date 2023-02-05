@@ -1,0 +1,9 @@
+// Vitest Snapshot v1
+
+exports[`Should render the Header correctly > The title can only be capitalized 1`] = `
+<p
+  class="chakra-text css-1piseh9"
+>
+  ARGOS
+</p>
+`;

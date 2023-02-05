@@ -44,7 +44,12 @@ export function Header() {
 				<HStack>
 					<HStack bg='blueGraysh.400' px='3' py='2' borderRadius='6'>
 						<FaBed color='white' size='30' />
-						<Text fontWeight='600' color='white' fontSize='xl'>
+						<Text
+							fontWeight='600'
+							color='white'
+							fontSize='xl'
+							data-testid='CartIndicator'
+						>
 							0
 						</Text>
 					</HStack>
