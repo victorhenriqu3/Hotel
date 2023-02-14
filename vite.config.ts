@@ -9,14 +9,11 @@ export default defineConfig({
 		alias: [{ find: '@', replacement: path.resolve(__dirname, '/src') }],
 	},
 	plugins: [react()],
-	root: 'src',
-	build: {
-		outDir: '../dist',
-	},
+
 	test: {
 		globals: true,
 		environment: 'jsdom',
-		setupFiles: ['../__test__/setup.ts'],
+		setupFiles: ['./__test__/setup.ts'],
 		include: ['**/*(*.)?{test,spec}.{js,ts,jsx,tsx}'],
 		exclude: ['node_modules', 'dist', '.idea', '.git', '.cache'],
 	},

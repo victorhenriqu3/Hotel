@@ -1,0 +1,100 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Quarto de Casal",
+      "description": "Mussum Ipsum, cacilds vidis litro abertis. Manduma pindureta quium dia nois paga.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Aenean aliquam molestie leo, vitae iaculis nisl.Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.Sapien in monti palavris qui num significa nadis i pareci latim.Interagi no mé, cursus quis, vehicula ac nisi.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Quem manda na minha terra sou euzis!",
+      "dailyPrice": 119.85,
+      "singleBeds": 2,
+      "doubleBeds": 1,
+      "maxGuests": 4,
+      "extras": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "image": "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 2,
+      "title": "Quarto de Casal",
+      "description": "Mussum Ipsum, cacilds vidis litro abertis. Manduma pindureta quium dia nois paga.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Aenean aliquam molestie leo, vitae iaculis nisl.Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.Sapien in monti palavris qui num significa nadis i pareci latim.Interagi no mé, cursus quis, vehicula ac nisi.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Quem manda na minha terra sou euzis!",
+      "dailyPrice": 119.85,
+      "singleBeds": 2,
+      "doubleBeds": 1,
+      "maxGuests": 4,
+      "extras": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "image": "https://images.pexels.com/photos/271643/pexels-photo-271643.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    },
+    {
+      "id": 3,
+      "title": "Quarto de Casal",
+      "description": "Mussum Ipsum, cacilds vidis litro abertis. Manduma pindureta quium dia nois paga.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Aenean aliquam molestie leo, vitae iaculis nisl.Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.Sapien in monti palavris qui num significa nadis i pareci latim.Interagi no mé, cursus quis, vehicula ac nisi.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Quem manda na minha terra sou euzis!",
+      "dailyPrice": 119.85,
+      "singleBeds": 2,
+      "doubleBeds": 1,
+      "maxGuests": 4,
+      "extras": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "image": "https://images.pexels.com/photos/271619/pexels-photo-271619.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    },
+    {
+      "id": 4,
+      "title": "Quarto de Casal",
+      "description": "Mussum Ipsum, cacilds vidis litro abertis. Manduma pindureta quium dia nois paga.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Aenean aliquam molestie leo, vitae iaculis nisl.Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.Sapien in monti palavris qui num significa nadis i pareci latim.Interagi no mé, cursus quis, vehicula ac nisi.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Quem manda na minha terra sou euzis!",
+      "dailyPrice": 119.85,
+      "singleBeds": 2,
+      "doubleBeds": 1,
+      "maxGuests": 4,
+      "extras": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "image": "https://images.pexels.com/photos/3201763/pexels-photo-3201763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 5,
+      "title": "Quarto de Casal",
+      "description": "Mussum Ipsum, cacilds vidis litro abertis. Manduma pindureta quium dia nois paga.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Aenean aliquam molestie leo, vitae iaculis nisl.Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.Sapien in monti palavris qui num significa nadis i pareci latim.Interagi no mé, cursus quis, vehicula ac nisi.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Quem manda na minha terra sou euzis!",
+      "dailyPrice": 119.85,
+      "singleBeds": 2,
+      "doubleBeds": 1,
+      "maxGuests": 4,
+      "extras": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "image": "https://amazingarchitecture.com/storage/1019/responsive-images/bedroom-minimalism___media_library_original_1344_756.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Quarto de Casal",
+      "description": "Mussum Ipsum, cacilds vidis litro abertis. Manduma pindureta quium dia nois paga.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Aenean aliquam molestie leo, vitae iaculis nisl.Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.Sapien in monti palavris qui num significa nadis i pareci latim.Interagi no mé, cursus quis, vehicula ac nisi.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Quem manda na minha terra sou euzis!",
+      "dailyPrice": 119.85,
+      "singleBeds": 2,
+      "doubleBeds": 1,
+      "maxGuests": 4,
+      "extras": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "image": "https://amazingarchitecture.com/storage/files/1/Articles/Bedroom/bedroom-interior.jpg"
+    }
+  ]
+}
